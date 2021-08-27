@@ -1,0 +1,22 @@
+.wp-block-kd-flow-columns {
+    outline: 1px solid var(--primary-200);
+
+}
+
+.wp-block-kd-flow-columns > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.wp-block-kd-flow-columns>.block-editor-inner-blocks>.block-editor-block-list__layout > * {
+    outline: 1px solid var(--primary-100);
+    width: 100%;
+    min-height: 2rem;
+    margin-top: 0;
+}
+
+.wp-block-kd-flow-columns>.block-editor-inner-blocks>.block-editor-block-list__layout> .block-list-appender {
+    outline: 1px solid hotpink;
+}
+

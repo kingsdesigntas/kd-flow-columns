@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "kd-flow/columns",
+	"version": "0.1.0",
+	"title": "Columns KD Flow",
+	"category": "design",
+	"icon": "align-center",
+	"description": "Flow section block with style controls and flow for inner content.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "columns",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
